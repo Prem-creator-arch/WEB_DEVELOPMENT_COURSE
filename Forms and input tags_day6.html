@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="Forms and input tags_day6.css">
+</head>
+<body>
+    <h1>For for becoming member in Druva company!!</h1>
+    <form action="post">
+        <div>
+            <label for="username">Enter your username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+        </div>
+        <div>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="Remember Me" name="Remember Me" value="yes">
+            <label for="Remember me">Remember Me</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comments</label>
+            <br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            Which device are you logging in:
+        </div>
+        <div>
+            <select name="Device" autofocus>
+                <option value="Apple">Apple</option>
+                <option value="Android">Android</option>
+                <option value="Windows">Windows</option>
+          </select>
+        </div>
+    </form>
+    <script src="Forms and input tags_day6.js"></script>
+</body>
+
+</html>
