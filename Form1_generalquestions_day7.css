@@ -1,0 +1,8 @@
+body{
+    background-color: aquamarine;
+    font-family:fantasy;
+    font-size: larger;
+}
+div[title="name"]{
+    background-color: brown;
+}
