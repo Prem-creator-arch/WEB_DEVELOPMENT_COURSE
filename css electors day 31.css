@@ -1,0 +1,32 @@
+.box:first-child{ 
+    color: red;
+}
+.box::first-line {
+    color: yellow;
+}
+.boxes *{
+    color: blue;
+}
+/* [data-color="Primary"]{
+    margin: 0px;
+    border: 2px solid black;
+} */
+ /* .box:nth-child(even){
+    background-color: aqua;
+ }
+  */
+  .boxes::before{
+    content:"Prem Bhai";
+  }
+  .boxes::selection{
+    color: green;
+    background-color: brown;
+  }
+  .box::first-letter{
+    color: blueviolet;
+    font-size: large;
+  }
+  input::placeholder{
+    color: aqua;
+    border: 2px solid black;
+  }
