@@ -1,0 +1,30 @@
+.nav{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    width: 100vw;
+    height: 30px;
+    text-align: center;
+}
+.body{
+    background-color: aqua;
+    height: 500px;
+    width: 100vw;
+}
+.box1{
+    background-color: blue;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+.box2{
+    background-color: blueviolet;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 110px;
+    left: 350px;
+}
