@@ -2,6 +2,7 @@
     background-color: red;
     margin: 0;
     padding: 0;
+    top: 0;
     position: sticky;
     width: 100vw;
     height: 30px;
@@ -14,17 +15,26 @@
 }
 .box1{
     background-color: blue;
-    height: 250px;
-    width: 250px;
+    height: 400px;
+    width: 400px;
     position: absolute;
-    top: 110px;
-    left: 50px;
+    top: 100px;
+    left: 200px;
 }
 .box2{
     background-color: blueviolet;
-    height: 250px;
-    width: 250px;
+    height: 400px;
+    width: 400px;
     position: absolute;
-    top: 110px;
-    left: 350px;
+    top: 100px;
+    left: 800px;
+}
+.textbox{
+    background-color: grey;
+    text-align: center;
+    border: 2px solid black;
+    position: relative;
+    top: 20px;
+    height: 250px;
+    border-radius: 20px;    
 }
