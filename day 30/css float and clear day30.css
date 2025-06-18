@@ -1,0 +1,18 @@
+.cards {
+    border: 2px solid black;
+    display: flow-root;
+}
+
+.card {
+    border: 2px solid red;
+}
+
+img {
+    float: left;
+}
+
+.cards :nth-child(2) {
+    clear: both;
+    background-color: aqua;
+    /* image is the first child */
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS variables</title>
+    <style>
+        :root{
+            /* global variable is made here  */
+            --color: blue;
+            --seccolor: rgb(6, 46, 82);
+            --defpad: 23px;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--seccolor);
+        }
+        .container{
+            background-color: lightgreen;
+        }
+        ul li{
+            list-style: none;
+            padding: 34px;
+            /* padding: var(--defpad); */
+        }
+        ul{
+            display: flex;
+        }
+        ul li:first-child{
+            --color: pink;
+            background-color: var(--color, lightpink);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul class="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus debitis sapiente blanditiis. Dicta, facilis nobis. Fuga facilis, eos nobis culpa labore eum dolore ex doloremque, quisquam ratione tempore, at distinctio iusto repellendus tenetur. Et omnis ut provident eligendi voluptate totam vel, autem dolores ratione error.
+    </div>
+</body>
+</html>

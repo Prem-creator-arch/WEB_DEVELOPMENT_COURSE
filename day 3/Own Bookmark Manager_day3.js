@@ -1,0 +1,1 @@
+alert("Welcome to Bookmark Manager created by Prem Kumar!")

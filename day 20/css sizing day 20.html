@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box
+        {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 233px; */
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aquamarine; 
+        }
+        .container
+        {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 233px; */
+            width: 80vw;
+            min-height: 80vh;
+            /* height: 10vh; */
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+            /* font-size: 1em;  */
+        }
+        .container div{
+            font-size: 2em;
+            border: 2px solid red;
+            width: 50%;
+        } 
+        .container > div > div{
+            width: 50%;
+            border: 2px solid blue;
+        }
+        html{
+            font-size: 12px;
+        }
+        .mycont{
+            color: yellow;
+            border: 2px black solid;
+            font-size: 22px;
+            width: 100vmin;
+            margin: 23px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        This is a box.
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel neque, suscipit quo exercitationem non voluptate doloribus molestias, corporis necessitatibus aliquam dolorum? Unde at autem aliquid. Nesciunt incidunt laudantium facere minima, magnam beatae. Asperiores tempore possimus facilis eligendi minus, assumenda harum culpa totam, corporis maiores neque est eum inventore hic eos obcaecati nemo alias porro beatae at!
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis delectus incidunt similique sit quasi, tempora possimus voluptas, reiciendis sed dicta provident voluptatibus laborum praesentium ea, asperiores sequi beatae? Consequuntur, fuga.
+        </div>
+    </div>
+    <div class="explain">
+        VW:View port width
+        VH:Viewport height
+        PX:pixel
+        EM:font size in multiples of it's inherited size as per location
+        REM: font size in multiple of root element font size
+        VMIN: in phone VMIN is width and in monitor VMIN is height 
+        VMAX:in phone VMAX is height and in monitor VMAX is width
+    </div>
+    <div class="mycont">
+        I am aanother container.
+    </div>
+</body>
+</html>

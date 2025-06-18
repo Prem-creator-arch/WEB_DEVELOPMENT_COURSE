@@ -1,0 +1,1 @@
+alert("ID are like adhaar cards and classes are like Categories! REMEMBER")

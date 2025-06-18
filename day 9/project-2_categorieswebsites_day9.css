@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+h3{
+    font-family: fantasy;
+    background-color: burlywood;
+}
+h1{
+    text-align: center;
+    background-color: blue;
+}
+h2{
+    text-align: center;
+    background-color: rgb(194, 252, 34);
+}
+
