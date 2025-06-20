@@ -2,14 +2,14 @@
     border: 2px solid black;
     display: grid;
     height: 620px;
+    grid-template-areas: "nav nav nav"  
+                         "side article article"
+                         "footer footer footer";
 }
 .item{
     border: 2px solid red;
     height: 55px;
     /* width: 55px; */
-    grid-template-areas: "nav nav nav"  
-                         "side article article"
-                         "footer footer footer";
 }
 .item-1{
     grid-area: nav;
