@@ -6,11 +6,21 @@
     border: 2px solid red;
     height: 55px;
     /* width: 55px; */
-    grid-template-areas: "nav nav nav"  "side article article";
-}
-.item-4{
-
+    grid-template-areas: "nav nav nav"  
+                         "side article article";
 }
 .item-1{
     grid-area: nav;
 }
+.item-2{
+    grid-area: side;
+}
+/* .item-3{
+    grid-area: nav;
+} */
+/* .item-4{
+    grid-area: nav;
+} */
+/* .item-5{
+    grid-area: nav;
+} */
