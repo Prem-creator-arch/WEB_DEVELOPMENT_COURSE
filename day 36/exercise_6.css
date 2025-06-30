@@ -2,7 +2,6 @@
     display: flex;
     padding: 0;
     margin: 0;
-
 }
 .list{
     display: flex;
@@ -12,14 +11,28 @@
     align-items:normal;
     column-gap: 100px;
     row-gap: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .subscription{
     margin: 8px;
     padding: 10px;
     height: 10px;
-    width: 90px;
-    text-align: end;
+    width: 78px;
+    text-align: start;
     border: 2px solid black;
     border-radius: 20px;
     align-items: center;
+    margin-top: 8px;
+    margin-left: 150px;
+}
+.language{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.search{
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+    margin-left: 100px;
 }
