@@ -104,13 +104,13 @@
     text-align:inherit;
     position: relative;
     top: 90px;
-    border: 2px solid purple;
+    border: 2px solid yellow;
     color: aliceblue;
     width: 110px;
     left: 150px;
     height: 50px;
     border-radius: 8px;
-    background-color: purple;
+    background-color: yellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     line-height: 50px;
