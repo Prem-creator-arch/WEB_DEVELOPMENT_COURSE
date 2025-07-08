@@ -6,10 +6,38 @@
     background-color: blue;
     height: 90vh;
     width: 80vw;
+    position: absolute;
 }
 .ball{
     background-color: red;
     height: 90px;
     width: 90px;
+    position: relative;
     border-radius: 70px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: bouncey 5s infinite alternate;
+    animation: bouncex 5s infinite alternate;
+    animation-timing-function: ease-in-out, ease-in-out;
+}
+@keyframes bouncey {
+    0% {
+        transform: translateY(75vh);
+    }
+    50% {
+        transform: translateY(0vh);
+    }
+    100% {
+        transform: translateY(75vh);
+    }
+}
+@keyframes bouncex{
+    0% {
+        transform: translateX(60vw);
+    }
+    50% {
+        transform: translateX(0vw);
+    }
+    100% {
+        transform: translateX(60vw);
+    }
 }
