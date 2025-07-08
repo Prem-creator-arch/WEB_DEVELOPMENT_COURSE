@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: blue;
+    height: 90vh;
+    width: 80vw;
+}
+.ball{
+    background-color: red;
+    height: 90px;
+    width: 90px;
+    border-radius: 70px;
+}
