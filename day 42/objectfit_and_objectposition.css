@@ -2,6 +2,9 @@
     height: 634px;
     width: 688px;
     border: 2px solid black;
+    background-image: url("https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg");
+    background-position: center;
+    background-clip: border-box;
 }
 img{
     width: 466px;
