@@ -15,29 +15,16 @@
     position: relative;
     border-radius: 70px;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    animation: bouncey 5s infinite alternate;
-    animation: bouncex 5s infinite alternate;
-    animation-timing-function: ease-in-out, ease-in-out;
+    animation: bouncexy 5s infinite alternate ease-in-out; 
 }
-@keyframes bouncey {
+@keyframes bouncexy {
     0% {
-        transform: translateY(75vh);
+        transform: translateY(60vw,75vh);
     }
     50% {
-        transform: translateY(0vh);
+        transform: translateY(0vw,0vh);
     }
     100% {
-        transform: translateY(75vh);
-    }
-}
-@keyframes bouncex{
-    0% {
-        transform: translateX(60vw);
-    }
-    50% {
-        transform: translateX(0vw);
-    }
-    100% {
-        transform: translateX(60vw);
+        transform: translateY(60vw,75vh);
     }
 }
