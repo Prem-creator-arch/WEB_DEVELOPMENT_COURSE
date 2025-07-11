@@ -15,16 +15,22 @@
     position: relative;
     border-radius: 70px;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    animation: bouncexy 5s infinite alternate ease-in-out; 
+    animation: bouncex 3s infinite alternate linear, bouncey 1s infinite alternate ease-out ; 
 }
-@keyframes bouncexy {
-    0% {
-        transform: translateY(60vw,75vh);
+@keyframes bouncey {
+    from{
+        top: 0%;
     }
-    50% {
-        transform: translateY(0vw,0vh);
-    }
-    100% {
-        transform: translateY(60vw,75vh);
+    to{
+        bottom: 100%;
     }
 }
+@keyframes bouncex{
+    from{
+        left: 0%;
+    }
+    to{
+        right: 100%;
+    }
+}
+ 
