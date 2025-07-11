@@ -4,8 +4,8 @@
 }
 .container{
     background-color: blue;
-    height: 90vh;
-    width: 80vw;
+    height: 80%;
+    width: 80%;
     position: absolute;
 }
 .ball{
@@ -15,14 +15,14 @@
     position: relative;
     border-radius: 70px;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-    animation: bouncex 3s infinite alternate linear, bouncey 1s infinite alternate ease-out ; 
+    animation: bouncex 3s infinite linear, bouncey 1s infinite alternate ease-out ; 
 }
 @keyframes bouncey {
     from{
         top: 0%;
     }
     to{
-        bottom: 100%;
+        top: 80%;
     }
 }
 @keyframes bouncex{
@@ -30,7 +30,7 @@
         left: 0%;
     }
     to{
-        right: 100%;
+        left: 80%;
     }
 }
  
